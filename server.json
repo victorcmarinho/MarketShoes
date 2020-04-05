@@ -1,0 +1,72 @@
+{
+  "stock": [
+    {
+      "id": 1,
+      "amount": 3
+    },
+    {
+      "id": 2,
+      "amount": 5
+    },
+    {
+      "id": 3,
+      "amount": 2
+    },
+    {
+      "id": 4,
+      "amount": 1
+    },
+    {
+      "id": 5,
+      "amount": 5
+    },
+    {
+      "id": 6,
+      "amount": 10
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Notebook Vostro 14 5000",
+      "price": 5318,
+      "image": "https://i.dell.com/sites/csimages/App-Merchandizing_Images/all/mantis-v-image-v2.png"
+    },
+    {
+      "id": 2,
+      "title": "Notebook Vostro 15 3000",
+      "price": 2729,
+      "image": "https://i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/vostro_notebooks/15_3584/global_spi/notebook-vostro-15-3584-black-campaign-hero-504x350-ng.psd?fmt=jpg&wid=570&hei=400"
+    },
+    {
+      "id": 3,
+      "title": "Notebook XPS 13",
+      "price": 12278,
+      "image": "https://i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/xps_notebooks/13_9380/pdp/notebooks-xps-13-9380-pdp-silver-rosegold-1.jpg?fmt=jpg"
+    },
+    {
+      "id": 4,
+      "title": "Mobile Precision 5540",
+      "price": 21833,
+      "image": "https://scene7-cdn.dell.com/is/image//DellComputer/workstations-precision-5540-html5-static-image-set?wid=768&fmt=png-alpha"
+    },
+    {
+      "id": 5,
+      "title": "Dell G3 15",
+      "price": 219.9,
+      "image": "https://i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/g_series/15_3590_nontouch/general/hero-image-g3-monster-hunter-v2.jpg?fmt=jpg&wid=570&hei=400"
+    },
+    {
+      "id": 6,
+      "title": "Dell G5 15",
+      "price": 179.9,
+      "image": "https://i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/g_series/g5_15_5590-non-touch/pdp/laptop-g-series-g5-15-5590-nontouch-notebook-pdp-mod-4-v2.png?fmt=jpg"
+    },
+    {
+      "id": 7,
+      "title": "ALIENWARE AREA 51M",
+      "price": 179.9,
+      "image": "https://i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/alienware_notebooks/17_area-51m_non-tobii/pdp/laptops-aw-alienware-area-51m-nt-pdp-mod-hero.jpg?fmt=jpg&wid=570&hei=400"
+    }
+  ]
+}
