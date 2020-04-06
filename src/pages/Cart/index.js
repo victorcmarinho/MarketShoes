@@ -7,7 +7,7 @@ export default function Cart() {
   return (
     <Container>
       <ProductTable>
-        <thread>
+        <thead>
           <tr>
             <th/>
             <th>PRODUTO</th>
@@ -15,7 +15,7 @@ export default function Cart() {
             <th>SUBTOTAL</th>
             <th/>
           </tr>
-        </thread>
+        </thead>
         <tbody>
           <tr>
             <td>
