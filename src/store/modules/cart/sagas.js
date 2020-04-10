@@ -7,6 +7,7 @@ import { formatPrice } from '../../../util/format';
 import { addToCartSuccess, updateAmountSuccess } from './actions';
 
 function* addToCart({ id }) {
+  debugger
   const productExists = yield select(state =>
     state.cart.find(p => p.id === id)
   );
