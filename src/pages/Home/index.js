@@ -45,7 +45,7 @@ class Home extends Component {
               <div>
                 <MdAddShoppingCart size={16} color="#fff" /> {amount[product.id] || 0}
               </div>
-              <span>ADICIONAR AO CARINHO</span>
+              <span>ADICIONAR AO CARRINHO</span>
             </button>
           </li>
         ))}

@@ -1,9 +1,9 @@
 import produce from "immer";
 
 const buildReducer = {
-    '@cart/ADD': addToCart,
+    '@cart/ADD_SUCESS': addToCart,
     '@cart/REMOVE': removeFromCart,
-    '@cart/UPDATE_AMOUNT': updateAmount
+    '@cart/UPDATE_AMOUNT_SUCCESS': updateAmount
 }
 
 export default function cart(state = [], action) {
@@ -32,8 +32,6 @@ function removeFromCart(state, action) {
 }
 
 function updateAmount(state, action) {
-    if(action.amount <= 0)
-        return state;
     return produce(state, draft => {
         const productIndex = draft.findIndex(p => p.id === action.id);
         if (productIndex >= 0)
